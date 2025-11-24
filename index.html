@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- barre de titre -->
+    <title>portfolio</title>
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/d/dc/Portfolio.hu_full_logo.png"
+      type="image/x-icon"
+    />
+    <!-- link css externe -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- link de google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="barreNav">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Portfolio.hu_full_logo.png"
+          alt="logo"
+          class="img-logo"
+        />
+        <ul class="listeUL">
+          <li class="liste"><a href="#">Home</a></li>
+          <li class="liste"><a href="#about">About </a></li>
+          <li class="liste"><a href="#work">Work</a></li>
+          <li class="liste"><a href="#resume">Resume</a></li>
+          <li class="liste"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about" class="bloc">
+        <h1>Foulan Elfoulani</h1>
+        <h2>Ingénieur en informatique,</h2>
+        <h2>Developpeur Web FullStack JS</h2>
+        <img src="/images/Mypic.png" alt="MaPhoto" />
+      </section>
+
+      <section id="work" class="bloc">
+        <h3>Mes traveaux...</h3>
+        <div class="traveaux">
+          <div>
+            <iframe src="https://www.tayara.tn/fr/" frameborder="1"></iframe>
+            <p>
+              Un site pour la vente d'immobilier et toutes sorte de bonnes
+              affaires
+            </p>
+          </div>
+          <div>
+            <iframe src="https://gomycode.com/tn/fr/" frameborder="0"></iframe>
+            <p>
+              Un site pour la vente d'immobilier et toutes sorte de bonnes
+              affaires
+            </p>
+          </div>
+          <div>
+            <iframe src="https://openweathermap.org/" frameborder="0"></iframe>
+            <p>
+              Un site pour la vente d'immobilier et toutes sorte de bonnes
+              affaires
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="bloc cv">
+        <h3>A propos de moi ....</h3>
+        <p>
+          Je suis un ingénieur développeur web Full-Stack JavaScript passionné
+          par la création d’applications modernes, performantes et centrées sur
+          l’utilisateur. Ma maîtrise de React, Node.js, Express et MongoDB me
+          permet de prendre en charge l’ensemble d’un projet, du design de
+          l’interface à l’architecture backend en passant par l’optimisation des
+          performances et la mise en production. Curieux et rigoureux, j’aime
+          résoudre des problèmes complexes, construire des expériences fluides
+          et collaborer sur des projets innovants. Chaque application que je
+          développe est pensée pour être scalable, maintenable et élégante, tout
+          en offrant une expérience utilisateur de haute qualité.
+          <span
+            >Mon CV <img src="/images/cv-icon.png" alt="cv" width="50px"
+          /></span>
+        </p>
+        <img
+          src="https://media.istockphoto.com/id/1048373176/fr/photo/code-de-programmation-d%C3%A9veloppeur-logiciel-code-de-script-ordinateur-abstrait-%C3%A9cran-de-code.webp?a=1&s=612x612&w=0&k=20&c=E2LmLOHBy44QHVKRxHUSdCsa3GEkkXyMtjlWH4722ME="
+          alt="code"
+        />
+      </section>
+      <section id="contact" class="bloc">
+        <h3>Contactez moi ...</h3>
+        <p>
+          Vous souhaitez collaborer ou simplement échanger ? Envoyez-moi un
+          message ! 📍 123 Rue du Code, Paris, France 📞 +33 6 12 34 56 78 ✉️<a
+            href="mailto:foulanfoulani.com"
+            >foulanfoulani@gmail.com</a
+          >
+        </p>
+
+        <form>
+          <label for="nom">Nom:</label>
+          <input type="text" placeholder="Nom complet" required />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            placeholder="Adresse e-mail"
+            required
+            id="email"
+          />
+          <label for="msg">Message:</label>
+          <textarea
+            placeholder="Votre message..."
+            required
+            cols="30"
+            rows="10"
+          ></textarea>
+          <button type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Foulan Elfoulani — Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
