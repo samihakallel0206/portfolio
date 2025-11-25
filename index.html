@@ -40,14 +40,17 @@
     </header>
     <main>
       <section id="about" class="bloc">
-        <h1>Foulan Elfoulani</h1>
-        <h2>Ingénieur en informatique,</h2>
-        <h2>Developpeur Web FullStack JS</h2>
-        <img src="/images/Mypic.png" alt="MaPhoto" />
+        <img src="/images/Mypic.png" alt="MaPhoto" width="300" height="300" />
+
+        <div class="titre">
+          <h1>Foulan Elfoulani</h1>
+          <h2>Ingénieur en informatique,</h2>
+          <h2>Developpeur Web FullStack JS</h2>
+        </div>
       </section>
 
       <section id="work" class="bloc">
-        <h3>Mes traveaux...</h3>
+        <h2>Mes traveaux...</h2>
         <div class="traveaux">
           <div>
             <iframe src="https://www.tayara.tn/fr/" frameborder="1"></iframe>
@@ -73,8 +76,9 @@
         </div>
       </section>
 
-      <section id="resume" class="bloc cv">
-        <h3>A propos de moi ....</h3>
+      <section id="resume" class="bloc">
+        <h2>A propos de moi ....</h2>
+
         <p>
           Je suis un ingénieur développeur web Full-Stack JavaScript passionné
           par la création d’applications modernes, performantes et centrées sur
@@ -86,26 +90,25 @@
           et collaborer sur des projets innovants. Chaque application que je
           développe est pensée pour être scalable, maintenable et élégante, tout
           en offrant une expérience utilisateur de haute qualité.
-          <span
-            >Mon CV <img src="/images/cv-icon.png" alt="cv" width="50px"
-          /></span>
         </p>
-        <img
-          src="https://media.istockphoto.com/id/1048373176/fr/photo/code-de-programmation-d%C3%A9veloppeur-logiciel-code-de-script-ordinateur-abstrait-%C3%A9cran-de-code.webp?a=1&s=612x612&w=0&k=20&c=E2LmLOHBy44QHVKRxHUSdCsa3GEkkXyMtjlWH4722ME="
+        <div class="cv">
+          <h4>Veuillez consulter mon cv sur ce lien:</h4>
+          <a href="#">
+            <img src="/images/cv-icon.png" alt="cv" width="50px"
+          /></a>
+        </div>
+
+        <!-- <img
+          src="/images/mot-d-amelioration-de-la-strategie-d-opportunite-de-developpement.jpg"
           alt="code"
-        />
+        /> -->
       </section>
       <section id="contact" class="bloc">
-        <h3>Contactez moi ...</h3>
-        <p>
-          Vous souhaitez collaborer ou simplement échanger ? Envoyez-moi un
-          message ! 📍 123 Rue du Code, Paris, France 📞 +33 6 12 34 56 78 ✉️<a
-            href="mailto:foulanfoulani.com"
-            >foulanfoulani@gmail.com</a
-          >
-        </p>
-
-        <form>
+        <h2>Contactez moi ...</h2>
+        
+          
+      
+        <form class="formulaire">
           <label for="nom">Nom:</label>
           <input type="text" placeholder="Nom complet" required />
           <label for="email">Email:</label>
@@ -124,6 +127,12 @@
           ></textarea>
           <button type="submit">Envoyer</button>
         </form>
+        <hr>
+        <p>
+            Vous souhaitez collaborer ou simplement échanger ? Envoyez-moi un
+            message ! 📍 123 Rue du Code, Paris, France 📞 +33 6 12 34 56 78
+            ✉️<a href="mailto:foulanfoulani.com">foulanfoulani@gmail.com</a>
+          </p>
       </section>
     </main>
     <footer>
